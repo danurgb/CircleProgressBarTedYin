@@ -2,9 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CircleProgressBar.iml" filepath="$PROJECT_DIR$/CircleProgressBar.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/circleprogressbarlib/circleprogressbarlib.iml" filepath="$PROJECT_DIR$/circleprogressbarlib/circleprogressbarlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/CircleProgressBarTedYin.iml" filepath="$PROJECT_DIR$/.idea/modules/CircleProgressBarTedYin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CircleProgressBarTedYin.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CircleProgressBarTedYin.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CircleProgressBarTedYin.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CircleProgressBarTedYin.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CircleProgressBarTedYin.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CircleProgressBarTedYin.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/CircleProgressBarTedYin.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/CircleProgressBarTedYin.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/circleprogressbarlib/CircleProgressBarTedYin.circleprogressbarlib.iml" filepath="$PROJECT_DIR$/.idea/modules/circleprogressbarlib/CircleProgressBarTedYin.circleprogressbarlib.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/circleprogressbarlib/CircleProgressBarTedYin.circleprogressbarlib.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/circleprogressbarlib/CircleProgressBarTedYin.circleprogressbarlib.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/circleprogressbarlib/CircleProgressBarTedYin.circleprogressbarlib.main.iml" filepath="$PROJECT_DIR$/.idea/modules/circleprogressbarlib/CircleProgressBarTedYin.circleprogressbarlib.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/circleprogressbarlib/CircleProgressBarTedYin.circleprogressbarlib.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/circleprogressbarlib/CircleProgressBarTedYin.circleprogressbarlib.unitTest.iml" />
     </modules>
   </component>
 </project>

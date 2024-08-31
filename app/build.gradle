@@ -1,13 +1,14 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 22
+    namespace 'me.tedyin.circleprogressbar'
+    compileSdkVersion 34
     buildToolsVersion "22.0.1"
 
     defaultConfig {
         applicationId "me.tedyin.circleprogressbar"
-        minSdkVersion 11
-        targetSdkVersion 22
+        minSdkVersion 21
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
     }
@@ -20,7 +21,8 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile project(':circleprogressbarlib')
-    compile 'com.android.support:appcompat-v7:22.0.0'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation project(':circleprogressbarlib')
+    implementation 'androidx.appcompat:appcompat:1.7.0'
+    implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.0"))
 }
