@@ -2,13 +2,13 @@ apply plugin: 'com.android.library'
 //apply plugin: 'com.jfrog.bintray'
 version = "0.6.1"
 android {
-    namespace 'me.tedyin.circleprogressbarlib'
-    compileSdkVersion 34
+//  namespace 'me.tedyin.circleprogressbarlib'
+    compileSdkVersion 33
     buildToolsVersion "22.0.1"
 
     defaultConfig {
         minSdkVersion 21
-        targetSdkVersion 34
+        targetSdkVersion 33
         versionCode 3
         versionName "0.6.1"
     }
@@ -61,14 +61,14 @@ group = "me.tedyin.circleprogressbarlib"
 //}
 task sourcesJar(type: Jar) {
     from android.sourceSets.main.java.srcDirs
-    archiveClassifier = 'sources'
+    classifier = 'sources'
 }
 task javadoc(type: Javadoc) {
     source = android.sourceSets.main.java.srcDirs
     classpath += project.files(android.getBootClasspath().join(File.pathSeparator))
 }
 task javadocJar(type: Jar, dependsOn: javadoc) {
-    archiveClassifier = 'javadoc'
+    classifier = 'javadoc'
     from javadoc.destinationDir
 }
 artifacts {
